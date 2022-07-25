@@ -42,6 +42,7 @@ body {
 
 .banner__contact .banner-tel {
   font-size: 0.8rem;
+  color: red;
 }
 
 .banner__contact a {
