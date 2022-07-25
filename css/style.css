@@ -9,6 +9,70 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", 'Nunito Sans', Inter, sans-serif;
+  font-family: "Montserrat", "Nunito Sans", Inter, sans-serif;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .banner__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 18rem;
+}
+
+.banner__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner__contact .banner-inst {
+  margin-right: 0.7rem;
+  margin-top: -4px;
+}
+
+.banner__contact .banner-tel {
+  font-size: 0.8rem;
+}
+
+.banner__contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+.banner__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2d9624;
+}
+
+.banner .banner__img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -100;
+}
+
+.banner-block {
+  padding-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
