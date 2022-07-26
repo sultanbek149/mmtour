@@ -8,8 +8,8 @@
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  font-family: "Montserrat", "Nunito Sans", Inter, sans-serif;
 }
 
 html,
@@ -179,7 +179,7 @@ ul {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: -1px;
   right: 0;
   width: 100%;
   z-index: -100;
@@ -252,7 +252,7 @@ a {
   line-height: 24px;
   text-align: center;
   color: #000000;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.7rem;
 }
 
 .h4-title {
@@ -290,15 +290,31 @@ a {
 }
 
 .turs {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.turs .turs-holder {
+  margin-bottom: 3rem;
+}
+
+.turs .turs-btn {
+  background: rgba(250, 255, 0, 0.7);
+  color: #111;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
 }
 
 .turs .turs-item {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
-  width: 295px;
+  height: 400px;
+  max-width: 400px;
+  width: 100%;
   margin: 0 auto;
   border-radius: 10px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -308,7 +324,7 @@ a {
 
 .turs .turs-item span {
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 15px;
 }
 
@@ -354,5 +370,360 @@ a {
 
 .turs .turs-item-10 {
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour10.png");
+}
+
+@media screen and (max-width: 425px) {
+  .turs .turs-item {
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .turs .turs-item {
+    height: 290px;
+  }
+}
+
+.result {
+  position: relative;
+  background: #0a410f;
+  z-index: 0;
+  padding-bottom: 3rem;
+  padding-top: 89px;
+}
+
+.result img[alt="result"] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.result .result-card {
+  padding: 30px 10px;
+  margin-bottom: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(146.42deg, rgba(0, 0, 0, 0.5) -36.31%, rgba(0, 0, 0, 0) 136.19%);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+}
+
+.result .result-card .result-btn {
+  background: linear-gradient(93.57deg, rgba(255, 255, 255, 0.2) -31.4%, rgba(219, 223, 15, 0.2) 100.86%);
+  color: #ffffff;
+}
+
+.result .result-card .result-btn:hover {
+  color: #ffffff;
+}
+
+.result .result-card .result__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.result .result-card .result-list {
+  margin-bottom: 1.7rem;
+}
+
+.result .result-card .result-list .result-item + .result-item {
+  margin-top: 1rem;
+}
+
+.result .result-card .result-list .result-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.result .result-card .result-list .result-item img {
+  margin-right: 10px;
+}
+
+.result .result-card .result-list .result-item .res-img {
+  width: 40px;
+  text-align: center;
+}
+
+.result .result-card .result-list .result-item:nth-child(4) img {
+  margin-bottom: 9px;
+}
+
+.result .result-card .result-list .result-item:last-child {
+  margin-left: 0px;
+}
+
+.result .result-card .result-list .result-item:last-child img {
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.result .result-card .result-list .result-item .result-desc .resitem-title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.result .result-card .result-list .result-item .result-desc p {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.res-doc-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.res-doc-desc span {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.res-doc-item {
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+          box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+.res-doc-item:first-child {
+  background: #faff00;
+}
+
+.res-doc-item + .res-doc-item {
+  margin-top: 1.5rem;
+}
+
+.res-doc-list {
+  margin-bottom: 3rem;
+}
+
+.res-doc-number {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #0a410f;
+  margin-right: 1rem;
+}
+
+.res-doc-btn {
+  background: #faff00;
+  color: #000000;
+}
+
+.res-doc-title {
+  color: #fff;
+}
+
+.footer {
+  position: relative;
+  z-index: 0;
+  background: white;
+  padding-block: 3rem 0;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.footer img[alt="mountain"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer .footer-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.footer .footer-subtitle {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 12px;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.footer .bt-line {
+  border-top: 1.59px solid #000;
+  position: relative;
+  top: -10px;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.footer .input-t {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 100%;
+  background-color: transparent;
+  padding: 0.7rem;
+}
+
+.footer .form-group + .form-group {
+  margin-top: 1rem;
+}
+
+.footer form {
+  margin-bottom: 4rem;
+}
+
+.footer .form-container .contai {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000;
+}
+
+.footer .form-container input::-webkit-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.footer .form-container input:-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.footer .form-container input::-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.footer .form-container input::placeholder {
+  font-size: 0.8rem;
+}
+
+.footer .contai {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer .contai input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.footer .checkmark {
+  position: absolute;
+  top: -0.4px;
+  left: 7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #111;
+}
+
+.footer .contai:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.footer .contai input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.footer .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.footer .contai input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.footer .contai .checkmark:after {
+  left: 1.5px;
+  top: -1px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg) scale(0.7);
+  transform: rotate(45deg) scale(0.6);
+}
+
+.footer .form-button {
+  margin-top: 1rem;
+  border: none;
+  background: rgba(0, 255, 23, 0.4);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 8px;
+}
+
+.footer .tel,
+.footer .brand,
+.footer .email-name {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 15px;
+  /* identical to box height */
+  margin-top: 0.5rem;
+  color: #000000;
+}
+
+.footer .copyright {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  font-size: 0.8rem;
+  color: #686868;
+}
+
+.footer .footer-socials img {
+  margin-bottom: 5rem;
+  width: 35px;
 }
 /*# sourceMappingURL=style.css.map */
