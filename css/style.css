@@ -12,8 +12,115 @@ body {
   font-family: "Montserrat", "Nunito Sans", Inter, sans-serif;
 }
 
+html,
+body,
+span,
+applet,
+object,
+iframe,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
 .banner {
   position: relative;
+  margin-bottom: 6rem;
+}
+
+.banner__header {
+  text-align: center;
 }
 
 .banner .banner__top {
@@ -42,7 +149,7 @@ body {
 
 .banner__contact .banner-tel {
   font-size: 0.8rem;
-  color: red;
+  color: #fff;
 }
 
 .banner__contact a {
@@ -55,7 +162,9 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+  margin: 0 3rem;
   color: #000000;
+  margin-bottom: 2rem;
 }
 
 .banner__title {
@@ -78,5 +187,172 @@ body {
 
 .banner-block {
   padding-top: 3rem;
+}
+
+.banner-btn {
+  color: #000000;
+  background: #fbff45;
+}
+
+.banner-btn:hover {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-order {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 15px 1.5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-order:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.about-us {
+  margin-bottom: 6rem;
+}
+
+.about-us-btn {
+  background: #0b8c00;
+  color: #fff;
+}
+
+.about-us-btn:hover {
+  color: #fff;
+}
+
+.about-us-list {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto 2.5rem;
+}
+
+.about-us-subtitle {
+  margin-bottom: 1rem;
+}
+
+.about-us-title {
+  margin-bottom: 0.7rem;
+}
+
+.h3-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0.7rem;
+}
+
+.h4-title {
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.h4-title span {
+  font-weight: 700;
+  color: #2d9624;
+}
+
+.list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1.5rem;
+  margin-top: 2rem;
+}
+
+.list-item img {
+  margin-right: 1.3rem;
+}
+
+.list-item p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+  color: #000000;
+}
+
+.turs {
+  margin-bottom: 2rem;
+}
+
+.turs .turs-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 295px;
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem 0 0 1rem;
+}
+
+.turs .turs-item span {
+  color: #fff;
+  font-size: .9rem;
+  line-height: 15px;
+}
+
+.turs .turs-item + .turs-item {
+  margin-top: 1rem;
+}
+
+.turs .turs-item-1 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour1.png");
+}
+
+.turs .turs-item-2 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour2.png");
+}
+
+.turs .turs-item-3 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour3.png");
+}
+
+.turs .turs-item-4 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour4.png");
+}
+
+.turs .turs-item-5 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour5.png");
+}
+
+.turs .turs-item-6 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour6.png");
+}
+
+.turs .turs-item-7 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour7.png");
+}
+
+.turs .turs-item-8 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour8.png");
+}
+
+.turs .turs-item-9 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour9.png");
+}
+
+.turs .turs-item-10 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url("../src/img/tour10.png");
 }
 /*# sourceMappingURL=style.css.map */
