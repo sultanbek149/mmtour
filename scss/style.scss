@@ -198,7 +198,41 @@ a {
   transform: scale(1.2);
 }
 
-.whatsapp-btn {
+.pulse {
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  z-index: 1000;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.pulse:before,
+.pulse:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(71, 221, 0, 0.4);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.pulse:before {
+  animation: pulse 2s ease-out infinite;
+}
+
+.pulse:after {
+  animation: pulse 2s 1s ease-out infinite;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
 }
 
 .about-us {
@@ -216,7 +250,7 @@ a {
   width: 100%;
   margin: 0 auto 2.5rem;
 }
-.about-us-subtitle {
+.about-us-subtitlef {
   margin-bottom: 1rem;
 }
 .about-us-title {
@@ -428,7 +462,11 @@ a {
   padding-top: 89px;
   .result-card {
     padding: 30px 10px;
+
+    max-width: 400px;
+    margin: 0 auto;
     margin-bottom: 2.5rem;
+    width: 100%;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: linear-gradient(
@@ -514,6 +552,10 @@ a {
 }
 
 .res-doc {
+  width: 100%;
+  max-width: 400px;
+
+  margin-inline: auto;
 }
 .res-doc-desc {
   font-weight: 400;
@@ -624,6 +666,9 @@ a {
 
   form {
     margin-bottom: 4rem;
+    max-width: 400px;
+    width: 100%;
+    margin-inline: auto;
   }
 
   .form-container .contai {
@@ -648,7 +693,6 @@ a {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
 
     text-align: left;
 
@@ -751,6 +795,57 @@ a {
     img {
       margin-bottom: 5rem;
       width: 35px;
+    }
+  }
+}
+
+@media screen and (min-width: 345px) {
+  .banner {
+    .banner__top {
+      margin-bottom: 22rem;
+    }
+
+    .banner__title {
+      width: 300px;
+      margin-inline: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .banner {
+    .banner__top {
+      margin-bottom: 28rem;
+    }
+  }
+  .footer {
+    .footer-title,
+    .footer-subtitle {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .banner {
+    .banner__top {
+      margin-bottom: 33rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .banner {
+    .banner__top {
+      margin-bottom: 42rem;
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .banner {
+    .banner__top {
+      margin-bottom: 49rem;
     }
   }
 }
