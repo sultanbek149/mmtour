@@ -1,20 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T12:07:19.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Lnll1KrPIQLjP5SpQIKw" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T12:15:16.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="J6leqmeSQBcvwsUTAUL5" version="20.8.20" type="github">
   <diagram name="Page-1" id="jmFlhteXtsM8kEuOMyUp">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C5CykMycZpny5d4Dr8i0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-1" target="C5CykMycZpny5d4Dr8i0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C5CykMycZpny5d4Dr8i0-1" value="&#xa;&lt;b id=&quot;docs-internal-guid-1a27f53a-7fff-fef3-ce17-628c39003a53&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка NFT маркетплейса&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="115" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-2" target="C5CykMycZpny5d4Dr8i0-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C5CykMycZpny5d4Dr8i0-2" value="&#xa;&lt;b id=&quot;docs-internal-guid-ae347f31-7fff-d105-5a88-80a3971aad66&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка цифровых активов&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="110" width="125" height="70" as="geometry" />
+          <mxGeometry x="280" y="112.5" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C5CykMycZpny5d4Dr8i0-3" value="&lt;span id=&quot;docs-internal-guid-0b8d5a9f-7fff-5459-45df-064bcffe78cf&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="C5CykMycZpny5d4Dr8i0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-3" target="C5CykMycZpny5d4Dr8i0-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C5CykMycZpny5d4Dr8i0-4" value="&#xa;&lt;b id=&quot;docs-internal-guid-1a27f53a-7fff-fef3-ce17-628c39003a53&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка NFT маркетплейса&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="C5CykMycZpny5d4Dr8i0-3" value="&#xa;&lt;b id=&quot;docs-internal-guid-cf1913dc-7fff-9708-47f3-a87ee2b30ef7&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Привязка NFT токенов к цифровым активам &lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="95" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-4" value="&#xa;&lt;b id=&quot;docs-internal-guid-ccbc7a6e-7fff-dd11-a431-dc3e7549b8f0&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Размещение NFT активов на маркетплейсе&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="107.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-12" value="Производственный процесс" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-15" target="C5CykMycZpny5d4Dr8i0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-15" value="&#xa;&lt;b id=&quot;docs-internal-guid-1e8e43b3-7fff-f88c-acd8-4e108a5c05cb&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Нанять разработчиков&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="295" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-17" target="C5CykMycZpny5d4Dr8i0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-17" value="&#xa;&lt;b id=&quot;docs-internal-guid-e7bfd6dd-7fff-17d4-3cc9-2e3cba869229&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Создать Project management system &lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="292.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-19" value="&#xa;&lt;b id=&quot;docs-internal-guid-ad856a72-7fff-7307-2682-014a77827da1&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Распределение финансов по закупкам и созданиям NFT коллекции&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="297.5" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-21" value="Организационный процесс" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-22" value="Вспомогательный процесс" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-25" target="C5CykMycZpny5d4Dr8i0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-25" value="&#xa;&lt;b id=&quot;docs-internal-guid-5b64c4fe-7fff-686e-a24f-a31381187080&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Привлечение аудитории и Маркетинг(Реклама)&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5CykMycZpny5d4Dr8i0-27" target="C5CykMycZpny5d4Dr8i0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-27" value="&#xa;&lt;b id=&quot;docs-internal-guid-f3ebae5a-7fff-0466-25a0-27540e44e815&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Продажи или поиск клиентов&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="477.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-29" value="&#xa;&lt;b id=&quot;docs-internal-guid-0f11c6a5-7fff-481d-8a66-c16b1793e7b2&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;br&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Аналитика и Вывод инсайтов&lt;/span&gt;&lt;/p&gt;&lt;/b&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="472.5" width="120" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
