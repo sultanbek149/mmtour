@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T12:03:05.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="fzgb9IA4Cn8mKbY14HAV" type="github"><diagram name="Page-1" id="jmFlhteXtsM8kEuOMyUp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-14T12:07:19.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Lnll1KrPIQLjP5SpQIKw" version="20.8.20" type="github">
+  <diagram name="Page-1" id="jmFlhteXtsM8kEuOMyUp">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C5CykMycZpny5d4Dr8i0-1" value="&#xa;&lt;b id=&quot;docs-internal-guid-1a27f53a-7fff-fef3-ce17-628c39003a53&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка NFT маркетплейса&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-2" value="&#xa;&lt;b id=&quot;docs-internal-guid-ae347f31-7fff-d105-5a88-80a3971aad66&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка цифровых активов&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-3" value="&lt;span id=&quot;docs-internal-guid-0b8d5a9f-7fff-5459-45df-064bcffe78cf&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5CykMycZpny5d4Dr8i0-4" value="&#xa;&lt;b id=&quot;docs-internal-guid-1a27f53a-7fff-fef3-ce17-628c39003a53&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Разработка NFT маркетплейса&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
